@@ -116,7 +116,7 @@ st.title("Real-Time Social Media Insights Dashboard")
 
 # --- Sidebar ---
 st.sidebar.header("Settings")
-keyword = st.sidebar.text_input("Enter keyword to track:", "Mia Khalifa")
+keyword = st.sidebar.text_input("Enter keyword to track:", "Elon Musk")
 refresh_rate = st.sidebar.slider("Refresh rate (seconds):", min_value=5, max_value=120, value=30)
 num_tweets_to_fetch = st.sidebar.slider("Number of tweets to fetch per refresh:", min_value=10, max_value=100, value=50)
 
