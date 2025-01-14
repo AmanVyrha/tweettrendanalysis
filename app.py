@@ -7,7 +7,7 @@ import time
 from collections import defaultdict
 
 
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAMeQyAEAAAAAv%2Bv4kz8XmOjJ7kqgdHlK%2Bb3LRD0%3DBgiTddzQs5InF2O8ozJ8i6KFxnR6epgCCU52OtPRerGVY7SOiX"
+bearer_token = "BEARER_TOKEN"
 
 client = tweepy.Client(bearer_token=bearer_token, wait_on_rate_limit=True)
 
