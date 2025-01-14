@@ -123,7 +123,7 @@ num_tweets_to_fetch = st.sidebar.slider("Number of tweets to fetch per refresh:"
 # --- Placeholder for Dynamic Content ---
 placeholder = st.empty()
 
-# --- Data Storage (in-memory for this example) ---
+# --- Data Storage ---
 data_buffer = defaultdict(list)
 max_buffer_size = 1000  # Keep the last 1000 data points
 
